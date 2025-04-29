@@ -534,6 +534,7 @@
         border: 0px;
     }
     .botbot{
+        height:130px ;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -1138,6 +1139,12 @@
 
     }
     .footcontacstext{
+        font-family: var(--second-family);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 170%;
+        text-align: center;
+        color: #343434;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -1178,6 +1185,7 @@
         text-align: center;
     }
     footer{
+        margin-top: 50px;
         border-radius: 25px 25px 0 0;
         width: 100%;
         height: 452px;
@@ -1204,5 +1212,32 @@
         justify-content: space-between;
         width: 226px;
         height: 135px;
+    }
+    footer .logomedia{
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .media{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        width: 88px;
+        height: 52px;
+    }
+    .leftbot{
+        margin-top:20px ;
+        width: 88px;
+        height: 52px;
+    }
+    .botbottext{
+        font-family: var(--second-family);
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 170%;
+        text-align: center;
+        color: #9f9f9f;
     }
 }
